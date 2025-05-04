@@ -24,12 +24,14 @@ The API is hosted on Vercel and can be accessed via the following link:
 1. **Clone the repository**:
 
    ```bash
+   git clone https://github.com/Kamanashis-Biswas/Bike-Servicing-Management-API.git
 
    ```
 
 2. **Install dependencies**:
 
    ```bash
+   cd Bike-Servicing-Management-API
    npm install
    ```
 
