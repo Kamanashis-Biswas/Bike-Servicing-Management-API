@@ -14,20 +14,22 @@ app.use(express.json());
 app.use("/api/", router);
 
 app.get("/", (req: Request, res: Response) => {
-	res.send({
-		Message: "Bike Service server is runing...",
-	});
+  res.send({
+    message: "✅ Bike Service server is up and running smoothly!",
+    status: "success",
+    uptime: `${process.uptime().toFixed(2)} seconds`,
+  });
 });
 
 app.use(globalErrorHandler);
 
 // NOT FOUND API
 app.use((req: Request, res: Response, next: NextFunction) => {
-	res.status(StatusCodes.NOT_FOUND).json({
-		success: false,
-		status: StatusCodes.NOT_FOUND,
-		message: "API NOT FOUND!",
-	});
+  res.status(StatusCodes.NOT_FOUND).json({
+    success: false,
+    status: StatusCodes.NOT_FOUND,
+    message: "API NOT FOUND!",
+  });
 });
 
 export default app;
