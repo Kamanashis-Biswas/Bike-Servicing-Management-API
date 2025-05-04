@@ -1,7 +1,7 @@
 {
 	"name": "bike-servicing",
 	"version": "1.0.0",
-	"description": "",
+	"description": "A backend server for managing bike servicing operations, built with Express and Prisma.",
 	"main": "index.js",
 	"scripts": {
 		"postinstall": "prisma generate",
@@ -11,7 +11,7 @@
 		"seed": "ts-node-dev --respawn --transpile-only prisma/seed.ts",
 		"build": "tsc"
 	},
-	"author": "",
+	"author": "Kamanashis Biswas",
 	"license": "ISC",
 	"devDependencies": {
 		"@types/cors": "^2.8.17",
