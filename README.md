@@ -8,7 +8,7 @@ The Bike Servicing Management API is a RESTful solution designed to streamline o
 
 The API is hosted on Vercel and can be accessed via the following link:
 
-🔗 [https://bike-service-management-backend-djvzr1mhm.vercel.app/](https://bike-service-management-backend-djvzr1mhm.vercel.app/)
+🔗 [https://bike-service-management-backend.vercel.app/](https://bike-service-management-backend.vercel.app/)
 
 > **Note**: This is a REST API and can be tested using tools like Postman or integrated with a frontend application.
 
